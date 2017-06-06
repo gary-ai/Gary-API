@@ -3,12 +3,12 @@ API for GaryBot
 
 #Docker
 
-launch
+launch the following command (image name of your choice usualy team/name of project)
 ```
 docker build -t <image name> .
 ```
 
 run with X : the port in local (ex: 8081)
 ```
-docker run -p <X>:8080 -name <docker name> -d <image name>
+docker run -p <X>:8080 --name <docker name> -d <image name>
 ```
