@@ -1,7 +1,7 @@
 # Gary-API
 API for GaryBot
 
-#Docker
+# Docker
 
 launch the following command (image name of your choice usualy team/name of project)
 ```
