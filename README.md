@@ -3,12 +3,10 @@ API for GaryBot
 
 # Docker
 
-launch the following command (image name of your choice usualy team/name of project)
 ```
-docker build -t <image name> .
+docker-compose build
 ```
 
-run with X : the port in local (ex: 8081)
 ```
-docker run -p <X>:8080 --name <docker name> -d <image name>
+docker-compose up -d
 ```
