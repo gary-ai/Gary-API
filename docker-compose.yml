@@ -1,0 +1,8 @@
+version: '2'
+services:
+  gary-api:
+    container_name: garyAPI
+    build:
+      context: .
+    ports:
+      - 8081:8080
