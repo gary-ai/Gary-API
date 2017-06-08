@@ -3,7 +3,8 @@ services:
   gary-api:
     container_name: garyAPI
     build:
-      context: ./docker
+      dockerfile: docker/Dockerfile
+      context: .
     ports:
       - 8081:8080
     volumes:
