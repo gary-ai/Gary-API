@@ -3,10 +3,19 @@ API for GaryBot
 
 # Docker
 
-```
-docker-compose build
+To create local docker :
+```bash
+docker-compose up -d --build
 ```
 
+to stop it : 
+```bash
+docker-compose stop
 ```
-docker-compose up -d
+
+to restart it : 
+```bash
+docker-compose restart
 ```
+
+You will found the API listening in localhost:8081
